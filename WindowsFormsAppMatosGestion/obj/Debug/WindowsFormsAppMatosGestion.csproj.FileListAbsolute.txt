@@ -1,0 +1,12 @@
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\bin\Debug\WindowsFormsAppMatosGestion.exe.config
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\bin\Debug\WindowsFormsAppMatosGestion.exe
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\bin\Debug\WindowsFormsAppMatosGestion.pdb
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.csproj.AssemblyReference.cache
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.FormGenerale.resources
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.FormClient.resources
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.Properties.Resources.resources
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.csproj.GenerateResource.cache
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.exe
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.pdb
