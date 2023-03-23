@@ -23,6 +23,15 @@ namespace WindowsFormsAppMatosGestion
             dlg.ShowDialog();
         }
 
+        private void buttonMatos_Click(object sender, EventArgs e)
+        {
+            FormMatos dlg = new FormMatos();
+            dlg.ShowDialog();
+        }
 
+        private void FormGenerale_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

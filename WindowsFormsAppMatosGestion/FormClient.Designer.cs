@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.Clients = new System.Windows.Forms.Label();
-            this.InfosClients = new System.Windows.Forms.ListBox();
+            this.NomsClients = new System.Windows.Forms.ListBox();
             this.Informations = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxMail = new System.Windows.Forms.TextBox();
             this.labelMail = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxTel = new System.Windows.Forms.TextBox();
             this.labelTel = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxAdresse = new System.Windows.Forms.TextBox();
             this.labelAdresse = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxNom = new System.Windows.Forms.TextBox();
             this.labelNom = new System.Windows.Forms.Label();
             this.buttonModifier = new System.Windows.Forms.Button();
             this.buttonAjouter = new System.Windows.Forms.Button();
@@ -55,25 +55,25 @@
             this.Clients.TabIndex = 0;
             this.Clients.Text = "Clients";
             // 
-            // InfosClients
+            // NomsClients
             // 
-            this.InfosClients.FormattingEnabled = true;
-            this.InfosClients.ItemHeight = 16;
-            this.InfosClients.Location = new System.Drawing.Point(40, 84);
-            this.InfosClients.Name = "InfosClients";
-            this.InfosClients.Size = new System.Drawing.Size(120, 340);
-            this.InfosClients.TabIndex = 1;
-            this.InfosClients.SelectedIndexChanged += new System.EventHandler(this.InfosClients_SelectedIndexChanged);
+            this.NomsClients.FormattingEnabled = true;
+            this.NomsClients.ItemHeight = 16;
+            this.NomsClients.Location = new System.Drawing.Point(40, 84);
+            this.NomsClients.Name = "NomsClients";
+            this.NomsClients.Size = new System.Drawing.Size(120, 340);
+            this.NomsClients.TabIndex = 1;
+            this.NomsClients.SelectedIndexChanged += new System.EventHandler(this.InfosClients_SelectedIndexChanged);
             // 
             // Informations
             // 
-            this.Informations.Controls.Add(this.textBox4);
+            this.Informations.Controls.Add(this.textBoxMail);
             this.Informations.Controls.Add(this.labelMail);
-            this.Informations.Controls.Add(this.textBox3);
+            this.Informations.Controls.Add(this.textBoxTel);
             this.Informations.Controls.Add(this.labelTel);
-            this.Informations.Controls.Add(this.textBox2);
+            this.Informations.Controls.Add(this.textBoxAdresse);
             this.Informations.Controls.Add(this.labelAdresse);
-            this.Informations.Controls.Add(this.textBox1);
+            this.Informations.Controls.Add(this.textBoxNom);
             this.Informations.Controls.Add(this.labelNom);
             this.Informations.Location = new System.Drawing.Point(266, 83);
             this.Informations.Name = "Informations";
@@ -82,12 +82,12 @@
             this.Informations.TabStop = false;
             this.Informations.Text = "Informations";
             // 
-            // textBox4
+            // textBoxMail
             // 
-            this.textBox4.Location = new System.Drawing.Point(93, 124);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 7;
+            this.textBoxMail.Location = new System.Drawing.Point(93, 124);
+            this.textBoxMail.Name = "textBoxMail";
+            this.textBoxMail.Size = new System.Drawing.Size(100, 22);
+            this.textBoxMail.TabIndex = 7;
             // 
             // labelMail
             // 
@@ -98,12 +98,12 @@
             this.labelMail.TabIndex = 6;
             this.labelMail.Text = "Mail";
             // 
-            // textBox3
+            // textBoxTel
             // 
-            this.textBox3.Location = new System.Drawing.Point(94, 175);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 5;
+            this.textBoxTel.Location = new System.Drawing.Point(94, 175);
+            this.textBoxTel.Name = "textBoxTel";
+            this.textBoxTel.Size = new System.Drawing.Size(100, 22);
+            this.textBoxTel.TabIndex = 5;
             // 
             // labelTel
             // 
@@ -114,12 +114,12 @@
             this.labelTel.TabIndex = 4;
             this.labelTel.Text = "Tel";
             // 
-            // textBox2
+            // textBoxAdresse
             // 
-            this.textBox2.Location = new System.Drawing.Point(93, 73);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 3;
+            this.textBoxAdresse.Location = new System.Drawing.Point(93, 73);
+            this.textBoxAdresse.Name = "textBoxAdresse";
+            this.textBoxAdresse.Size = new System.Drawing.Size(100, 22);
+            this.textBoxAdresse.TabIndex = 3;
             // 
             // labelAdresse
             // 
@@ -130,13 +130,13 @@
             this.labelAdresse.TabIndex = 2;
             this.labelAdresse.Text = "Adresse";
             // 
-            // textBox1
+            // textBoxNom
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(93, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.textBoxNom.Enabled = false;
+            this.textBoxNom.Location = new System.Drawing.Point(93, 28);
+            this.textBoxNom.Name = "textBoxNom";
+            this.textBoxNom.Size = new System.Drawing.Size(100, 22);
+            this.textBoxNom.TabIndex = 1;
             // 
             // labelNom
             // 
@@ -155,6 +155,7 @@
             this.buttonModifier.TabIndex = 3;
             this.buttonModifier.Text = "Modifier";
             this.buttonModifier.UseVisualStyleBackColor = true;
+            this.buttonModifier.Click += new System.EventHandler(this.ButtonModifier_Click);
             // 
             // buttonAjouter
             // 
@@ -164,6 +165,7 @@
             this.buttonAjouter.TabIndex = 4;
             this.buttonAjouter.Text = "Ajouter";
             this.buttonAjouter.UseVisualStyleBackColor = true;
+            this.buttonAjouter.Click += new System.EventHandler(this.buttonAjouter_Click);
             // 
             // buttonSupprimer
             // 
@@ -173,6 +175,7 @@
             this.buttonSupprimer.TabIndex = 5;
             this.buttonSupprimer.Text = "Supprimer";
             this.buttonSupprimer.UseVisualStyleBackColor = true;
+            this.buttonSupprimer.Click += new System.EventHandler(this.buttonSupprimer_Click);
             // 
             // buttonFermer
             // 
@@ -197,7 +200,7 @@
             this.Controls.Add(this.buttonAjouter);
             this.Controls.Add(this.buttonModifier);
             this.Controls.Add(this.Informations);
-            this.Controls.Add(this.InfosClients);
+            this.Controls.Add(this.NomsClients);
             this.Controls.Add(this.Clients);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -216,15 +219,15 @@
         #endregion
 
         private System.Windows.Forms.Label Clients;
-        private System.Windows.Forms.ListBox InfosClients;
+        private System.Windows.Forms.ListBox NomsClients;
         private System.Windows.Forms.GroupBox Informations;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxNom;
         private System.Windows.Forms.Label labelNom;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxTel;
         private System.Windows.Forms.Label labelTel;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxAdresse;
         private System.Windows.Forms.Label labelAdresse;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxMail;
         private System.Windows.Forms.Label labelMail;
         private System.Windows.Forms.Button buttonModifier;
         private System.Windows.Forms.Button buttonAjouter;

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.buttonClient = new System.Windows.Forms.Button();
+            this.buttonMatos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonClient
@@ -43,16 +44,29 @@
             this.buttonClient.UseVisualStyleBackColor = false;
             this.buttonClient.Click += new System.EventHandler(this.buttonClient_Click);
             // 
+            // buttonMatos
+            // 
+            this.buttonMatos.BackColor = System.Drawing.Color.Lavender;
+            this.buttonMatos.Location = new System.Drawing.Point(32, 126);
+            this.buttonMatos.Name = "buttonMatos";
+            this.buttonMatos.Size = new System.Drawing.Size(171, 93);
+            this.buttonMatos.TabIndex = 1;
+            this.buttonMatos.Text = "Materiel";
+            this.buttonMatos.UseVisualStyleBackColor = false;
+            this.buttonMatos.Click += new System.EventHandler(this.buttonMatos_Click);
+            // 
             // FormGenerale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonMatos);
             this.Controls.Add(this.buttonClient);
             this.Name = "FormGenerale";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GestionMatos";
+            this.Load += new System.EventHandler(this.FormGenerale_Load);
             this.ResumeLayout(false);
 
         }
@@ -60,6 +74,7 @@
         #endregion
 
         private System.Windows.Forms.Button buttonClient;
+        private System.Windows.Forms.Button buttonMatos;
     }
 }
 

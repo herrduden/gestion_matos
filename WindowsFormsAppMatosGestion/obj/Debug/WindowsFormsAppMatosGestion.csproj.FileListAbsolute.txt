@@ -10,3 +10,6 @@ C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGe
 C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.csproj.CoreCompileInputs.cache
 C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.exe
 C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.pdb
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.AddClient.resources
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.FormMatos.resources
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.AddMatos.resources
