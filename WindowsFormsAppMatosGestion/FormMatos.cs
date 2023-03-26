@@ -79,6 +79,13 @@ namespace WindowsFormsAppMatosGestion
 
         private void TransferData(object sender, EventArgs e)
         {
+            if (listBoxMatos.SelectedIndex == -1)
+            {
+                MessageBox.Show("please select an item", "erreur", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                listBoxMatos.Focus();
+                return;
+            }
+
             string matos = listBoxMatos.SelectedItem.ToString();
 
             SqlConnection co = null;           
@@ -109,6 +116,78 @@ namespace WindowsFormsAppMatosGestion
             AddMatos Window = new AddMatos();
             Window.ShowDialog();
             afficherMatos();
+        }
+
+        private void buttonModifier_Click(object sender, EventArgs e)
+        {
+            if (listBoxMatos.SelectedIndex==-1)
+            {
+                MessageBox.Show("please select an item" ,"erreur", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                listBoxMatos.Focus();
+                return;
+            }
+            SqlConnection co =null;
+            SqlCommand requete = null;
+            co = new SqlConnection(this.connstring);
+            co.Open();
+
+            string query = @"UPDATE MATERIEL SET Nom= @name , NoSerie = @serie, Date_install=@date, MTBF=@mtbf, type=@type , Marque=@marque  WHERE Nom = @Nom" ;
+
+            requete = new SqlCommand(query, co);
+            requete.Parameters.Add("@Nom",listBoxMatos.SelectedItem.ToString());
+            requete.Parameters.Add("@name",textBoxNom.Text);                    
+            requete.Parameters.Add("@serie",textBoxNumSerie.Text);              
+            requete.Parameters.Add("@date", textBoxDate.Text);                  
+            requete.Parameters.Add("@mtbf",textBoxMTBF.Text);                   
+            requete.Parameters.Add("@type",textBoxType.Text);                   
+            requete.Parameters.Add("@marque",textBoxMarque.Text);               
+            requete.ExecuteNonQuery();
+
+            MessageBox.Show("Item was successfully modified", "success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            afficherMatos();
+
+
+
+            if (co != null)
+            {
+                co.Close();
+                co.Dispose();
+            }
+            if (requete != null)
+            {
+                requete.Dispose();
+            }
+        }
+
+        private void buttonSupprimer_Click(object sender, EventArgs e)
+        {
+            if (listBoxMatos.SelectedIndex == -1)
+            {
+                MessageBox.Show("please select an item", "erreur", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                listBoxMatos.Focus();
+                return;
+            }
+            SqlConnection co = null;
+            SqlCommand requete = null;
+
+            string query = "delete from MATERIEL where Nom=@nom";
+
+            co = new SqlConnection(this.connstring);
+            co.Open();
+            requete = new SqlCommand(query,co);
+
+            requete.Parameters.Add("@nom", listBoxMatos.SelectedItem);
+            requete.ExecuteNonQuery();
+            MessageBox.Show("Item was successfully deleted", "success", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            textBoxDate.Clear();
+            textBoxMarque.Clear();
+            textBoxMTBF.Clear();
+            textBoxNom.Clear();
+            textBoxType.Clear();
+            textBoxNumSerie.Clear();
+            afficherMatos();
+
         }
     }
 }

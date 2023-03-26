@@ -16,7 +16,9 @@ namespace WindowsFormsAppMatosGestion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormGenerale());
+            /* Application.Run(new FormGenerale());*/
+            Application.Run(new Login());
+            
         }
     }
 }

@@ -13,3 +13,4 @@ C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGe
 C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.AddClient.resources
 C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.FormMatos.resources
 C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.AddMatos.resources
+C:\Users\Mohamed\source\repos\WindowsFormsAppMatosGestion\WindowsFormsAppMatosGestion\obj\Debug\WindowsFormsAppMatosGestion.Login.resources

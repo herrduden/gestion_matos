@@ -51,7 +51,7 @@
             // 
             this.buttonClose.Location = new System.Drawing.Point(629, 296);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.Size = new System.Drawing.Size(85, 23);
             this.buttonClose.TabIndex = 0;
             this.buttonClose.Text = "Fermer";
             this.buttonClose.UseVisualStyleBackColor = true;
@@ -71,7 +71,7 @@
             // 
             this.buttonAjouter.Location = new System.Drawing.Point(629, 43);
             this.buttonAjouter.Name = "buttonAjouter";
-            this.buttonAjouter.Size = new System.Drawing.Size(75, 23);
+            this.buttonAjouter.Size = new System.Drawing.Size(85, 23);
             this.buttonAjouter.TabIndex = 2;
             this.buttonAjouter.Text = "Ajouter";
             this.buttonAjouter.UseVisualStyleBackColor = true;
@@ -81,19 +81,21 @@
             // 
             this.buttonModifier.Location = new System.Drawing.Point(629, 119);
             this.buttonModifier.Name = "buttonModifier";
-            this.buttonModifier.Size = new System.Drawing.Size(75, 23);
+            this.buttonModifier.Size = new System.Drawing.Size(85, 23);
             this.buttonModifier.TabIndex = 3;
             this.buttonModifier.Text = "Modifier";
             this.buttonModifier.UseVisualStyleBackColor = true;
+            this.buttonModifier.Click += new System.EventHandler(this.buttonModifier_Click);
             // 
             // buttonSupprimer
             // 
             this.buttonSupprimer.Location = new System.Drawing.Point(629, 207);
             this.buttonSupprimer.Name = "buttonSupprimer";
-            this.buttonSupprimer.Size = new System.Drawing.Size(75, 23);
+            this.buttonSupprimer.Size = new System.Drawing.Size(85, 23);
             this.buttonSupprimer.TabIndex = 4;
             this.buttonSupprimer.Text = "Supprimer";
             this.buttonSupprimer.UseVisualStyleBackColor = true;
+            this.buttonSupprimer.Click += new System.EventHandler(this.buttonSupprimer_Click);
             // 
             // textBoxNom
             // 

@@ -205,7 +205,7 @@ namespace WindowsFormsAppMatosGestion
             requete.ExecuteNonQuery();
             afficheclient();
 
-
+            
             if (co != null)
             {
                 co.Close();
